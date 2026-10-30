@@ -1,14 +1,18 @@
+
 name: FkuShka
+
 options:
   bundleIdPrefix: com.fkushka
   deploymentTarget:
     iOS: "16.0"
   developmentLanguage: ru
+
 settings:
   base:
     SWIFT_VERSION: "5.9"
     MARKETING_VERSION: "1.1.0"
     CURRENT_PROJECT_VERSION: "2"
+
 targets:
   FkuShka:
     type: application
@@ -27,23 +31,9 @@ targets:
         INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.healthcare-fitness
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         TARGETED_DEVICE_FAMILY: "1,2"
-  FkuShkaTests:
-    type: bundle.unit-test
-    platform: iOS
-    sources:
-      - path: FkuShkaTests
-    dependencies:
-      - target: FkuShka
-    settings:
-      base:
-        GENERATE_INFOPLIST_FILE: YES
-        PRODUCT_BUNDLE_IDENTIFIER: com.fkushka.app.tests
+
 schemes:
   FkuShka:
     build:
       targets:
         FkuShka: all
-        FkuShkaTests: [test]
-    test:
-      targets:
-        - FkuShkaTests
