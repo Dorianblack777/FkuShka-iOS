@@ -1,0 +1,36 @@
+# Сборка неподписанного .ipa на Codemagic (бесплатный личный тариф: 500 мин/мес на Mac M2).
+# Запуск вручную: Start new build → workflow «ios-unsigned». Файл появится в Artifacts.
+workflows:
+  ios-unsigned:
+    name: FkuShka iOS (unsigned IPA)
+    instance_type: mac_mini_m2
+    max_build_duration: 45
+    environment:
+      xcode: latest
+    scripts:
+      - name: Install XcodeGen
+        script: brew install xcodegen
+
+      - name: Generate Xcode project
+        script: xcodegen generate
+
+      # Тесты не блокируют сборку .ipa: если упадут, смотрите лог шага.
+      - name: Unit tests
+        ignore_failure: true
+        script: |
+          SIM_ID=$(xcrun simctl list devices available | grep -m1 'iPhone' | grep -oE '[0-9A-F-]{36}')
+          xcodebuild test -project FkuShka.xcodeproj -scheme FkuShka \
+            -destination "platform=iOS Simulator,id=$SIM_ID" \
+            CODE_SIGNING_ALLOWED=NO
+
+      - name: Build unsigned IPA
+        script: |
+          xcodebuild -project FkuShka.xcodeproj -scheme FkuShka -configuration Release \
+            -sdk iphoneos -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" build
+          mkdir -p Payload
+          cp -R build/Build/Products/Release-iphoneos/FkuShka.app Payload/
+          zip -qr FkuShka-unsigned.ipa Payload
+
+    artifacts:
+      - FkuShka-unsigned.ipa
