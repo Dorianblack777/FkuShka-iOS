@@ -1,0 +1,402 @@
+[
+ {
+  "id": "lp1",
+  "name": "Смесь для выпечки МакМастер «Версаль»",
+  "category": "lowprot",
+  "protein": 0.5,
+  "phe": 20.0,
+  "kcal": 348.0
+ },
+ {
+  "id": "lp2",
+  "name": "Смесь для выпечки МакМастер «Безбелковая»",
+  "category": "lowprot",
+  "protein": 0.2,
+  "phe": 9.0,
+  "kcal": 350.0
+ },
+ {
+  "id": "lp3",
+  "name": "Макароны безбелковые МакМастер (сухие)",
+  "category": "lowprot",
+  "protein": 0.3,
+  "phe": 12.0,
+  "kcal": 345.0
+ },
+ {
+  "id": "lp4",
+  "name": "Макароны низкобелковые (отварные)",
+  "category": "lowprot",
+  "protein": 0.1,
+  "phe": 5.0,
+  "kcal": 115.0
+ },
+ {
+  "id": "lp5",
+  "name": "Хлеб рисовый / крахмальный на псиллиуме (выпечка НБ)",
+  "category": "lowprot",
+  "protein": 0.8,
+  "phe": 35.0,
+  "kcal": 235.0
+ },
+ {
+  "id": "lp6",
+  "name": "Псиллиум (шелуха подорожника)",
+  "category": "lowprot",
+  "protein": 1.5,
+  "phe": 60.0,
+  "kcal": 180.0
+ },
+ {
+  "id": "lp7",
+  "name": "Саго искусственное (кукурузный крахмал, сухое)",
+  "category": "lowprot",
+  "protein": 0.2,
+  "phe": 9.0,
+  "kcal": 350.0
+ },
+ {
+  "id": "lp8",
+  "name": "Молоко низкобелковое (разведенное / жидкое)",
+  "category": "lowprot",
+  "protein": 0.2,
+  "phe": 8.0,
+  "kcal": 48.0
+ },
+ {
+  "id": "lp9",
+  "name": "Крахмал кукурузный / картофельный",
+  "category": "lowprot",
+  "protein": 0.1,
+  "phe": 4.0,
+  "kcal": 340.0
+ },
+ {
+  "id": "lp10",
+  "name": "Рис низкобелковый (сухой)",
+  "category": "lowprot",
+  "protein": 0.3,
+  "phe": 14.0,
+  "kcal": 355.0
+ },
+ {
+  "id": "lp11",
+  "name": "Печенье низкобелковое специализированное",
+  "category": "lowprot",
+  "protein": 0.4,
+  "phe": 18.0,
+  "kcal": 460.0
+ },
+ {
+  "id": "v1",
+  "name": "Картофель свежий (очищенный)",
+  "category": "veg",
+  "protein": 2.0,
+  "phe": 82.0,
+  "kcal": 77.0
+ },
+ {
+  "id": "v2",
+  "name": "Картофель (вымоченный в воде)",
+  "category": "veg",
+  "protein": 1.4,
+  "phe": 58.0,
+  "kcal": 68.0
+ },
+ {
+  "id": "v3",
+  "name": "Баклажаны свежие",
+  "category": "veg",
+  "protein": 1.2,
+  "phe": 43.0,
+  "kcal": 24.0
+ },
+ {
+  "id": "v4",
+  "name": "Томаты (помидоры грунтовые)",
+  "category": "veg",
+  "protein": 0.9,
+  "phe": 26.0,
+  "kcal": 20.0
+ },
+ {
+  "id": "v5",
+  "name": "Томаты Черри",
+  "category": "veg",
+  "protein": 0.8,
+  "phe": 24.0,
+  "kcal": 18.0
+ },
+ {
+  "id": "v6",
+  "name": "Перец болгарский сладкий",
+  "category": "veg",
+  "protein": 1.3,
+  "phe": 38.0,
+  "kcal": 27.0
+ },
+ {
+  "id": "v7",
+  "name": "Кабачки / Цукини молодые",
+  "category": "veg",
+  "protein": 0.6,
+  "phe": 22.0,
+  "kcal": 24.0
+ },
+ {
+  "id": "v8",
+  "name": "Лук репчатый",
+  "category": "veg",
+  "protein": 1.4,
+  "phe": 38.0,
+  "kcal": 41.0
+ },
+ {
+  "id": "v9",
+  "name": "Кинза / Петрушка / Укроп (свежая зелень)",
+  "category": "veg",
+  "protein": 2.1,
+  "phe": 75.0,
+  "kcal": 36.0
+ },
+ {
+  "id": "v10",
+  "name": "Морковь свежая",
+  "category": "veg",
+  "protein": 1.3,
+  "phe": 41.0,
+  "kcal": 35.0
+ },
+ {
+  "id": "v11",
+  "name": "Капуста белокочанная",
+  "category": "veg",
+  "protein": 1.8,
+  "phe": 52.0,
+  "kcal": 28.0
+ },
+ {
+  "id": "v12",
+  "name": "Капуста цветная",
+  "category": "veg",
+  "protein": 2.5,
+  "phe": 95.0,
+  "kcal": 30.0
+ },
+ {
+  "id": "v13",
+  "name": "Огурцы свежие грунтовые",
+  "category": "veg",
+  "protein": 0.7,
+  "phe": 19.0,
+  "kcal": 15.0
+ },
+ {
+  "id": "v14",
+  "name": "Тыква свежая",
+  "category": "veg",
+  "protein": 1.0,
+  "phe": 32.0,
+  "kcal": 22.0
+ },
+ {
+  "id": "v15",
+  "name": "Свекла столовая",
+  "category": "veg",
+  "protein": 1.5,
+  "phe": 42.0,
+  "kcal": 42.0
+ },
+ {
+  "id": "v16",
+  "name": "Чеснок свежий",
+  "category": "veg",
+  "protein": 6.5,
+  "phe": 185.0,
+  "kcal": 149.0
+ },
+ {
+  "id": "f1",
+  "name": "Яблоко свежее",
+  "category": "fruit",
+  "protein": 0.4,
+  "phe": 11.0,
+  "kcal": 47.0
+ },
+ {
+  "id": "f2",
+  "name": "Банан спелый (мякоть)",
+  "category": "fruit",
+  "protein": 1.5,
+  "phe": 48.0,
+  "kcal": 96.0
+ },
+ {
+  "id": "f3",
+  "name": "Груша свежая",
+  "category": "fruit",
+  "protein": 0.4,
+  "phe": 12.0,
+  "kcal": 47.0
+ },
+ {
+  "id": "f4",
+  "name": "Апельсин / Мандарин",
+  "category": "fruit",
+  "protein": 0.9,
+  "phe": 24.0,
+  "kcal": 43.0
+ },
+ {
+  "id": "f5",
+  "name": "Виноград свежий",
+  "category": "fruit",
+  "protein": 0.6,
+  "phe": 15.0,
+  "kcal": 72.0
+ },
+ {
+  "id": "f6",
+  "name": "Клубника / Земляника",
+  "category": "fruit",
+  "protein": 0.8,
+  "phe": 22.0,
+  "kcal": 41.0
+ },
+ {
+  "id": "f7",
+  "name": "Персик / Нектарин",
+  "category": "fruit",
+  "protein": 0.9,
+  "phe": 25.0,
+  "kcal": 45.0
+ },
+ {
+  "id": "f8",
+  "name": "Авокадо",
+  "category": "fruit",
+  "protein": 2.0,
+  "phe": 85.0,
+  "kcal": 160.0
+ },
+ {
+  "id": "d1",
+  "name": "Кофе Американо / Эспрессо (без молока)",
+  "category": "drinks",
+  "protein": 0.1,
+  "phe": 3.0,
+  "kcal": 2.0
+ },
+ {
+  "id": "d2",
+  "name": "Мед натуральный цветочный",
+  "category": "drinks",
+  "protein": 0.8,
+  "phe": 25.0,
+  "kcal": 328.0
+ },
+ {
+  "id": "d3",
+  "name": "Сироп топинамбура натуральный",
+  "category": "drinks",
+  "protein": 0.0,
+  "phe": 0.0,
+  "kcal": 267.0
+ },
+ {
+  "id": "d4",
+  "name": "Сироп тапиоки / финиковый",
+  "category": "drinks",
+  "protein": 0.1,
+  "phe": 3.0,
+  "kcal": 310.0
+ },
+ {
+  "id": "d5",
+  "name": "Газировка на сахаре (без аспартама E951!)",
+  "category": "drinks",
+  "protein": 0.0,
+  "phe": 0.0,
+  "kcal": 42.0
+ },
+ {
+  "id": "d6",
+  "name": "Сливки растительные (кокосовые / рисовые)",
+  "category": "drinks",
+  "protein": 0.8,
+  "phe": 36.0,
+  "kcal": 185.0
+ },
+ {
+  "id": "d7",
+  "name": "Сметана 15% жирности",
+  "category": "drinks",
+  "protein": 2.6,
+  "phe": 130.0,
+  "kcal": 158.0
+ },
+ {
+  "id": "d8",
+  "name": "Сметана 20% жирности",
+  "category": "drinks",
+  "protein": 2.5,
+  "phe": 125.0,
+  "kcal": 206.0
+ },
+ {
+  "id": "d9",
+  "name": "Мармелад фруктовый / Зефир на пектине",
+  "category": "drinks",
+  "protein": 0.4,
+  "phe": 15.0,
+  "kcal": 320.0
+ },
+ {
+  "id": "d10",
+  "name": "Сахар-песок / Глюкоза",
+  "category": "drinks",
+  "protein": 0.0,
+  "phe": 0.0,
+  "kcal": 398.0
+ },
+ {
+  "id": "o1",
+  "name": "Масло растительное (подсолнечное / оливковое)",
+  "category": "oils",
+  "protein": 0.0,
+  "phe": 0.0,
+  "kcal": 899.0
+ },
+ {
+  "id": "o2",
+  "name": "Масло сливочное 82.5%",
+  "category": "oils",
+  "protein": 0.6,
+  "phe": 30.0,
+  "kcal": 748.0
+ },
+ {
+  "id": "o3",
+  "name": "Масло топленое (Гхи)",
+  "category": "oils",
+  "protein": 0.1,
+  "phe": 5.0,
+  "kcal": 890.0
+ },
+ {
+  "id": "o4",
+  "name": "Томатная паста (классическая)",
+  "category": "oils",
+  "protein": 4.8,
+  "phe": 145.0,
+  "kcal": 82.0
+ },
+ {
+  "id": "o5",
+  "name": "Майонез салатный (низкобелковый / постный)",
+  "category": "oils",
+  "protein": 0.4,
+  "phe": 20.0,
+  "kcal": 540.0
+ }
+]
